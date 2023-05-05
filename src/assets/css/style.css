@@ -1,0 +1,211 @@
+div {
+    display: block;
+}
+
+.label-u {
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    box-sizing: border-box;
+    margin-inline-end: 420px;
+}
+
+.label-p {
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    box-sizing: border-box;
+    margin-inline-end: 470px;
+}
+
+.input {
+    width: 50%;
+    border: 2px solid rgb(241, 242, 244);
+    height: 32px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    padding-left: 10px;
+    border-radius: 11px;
+    margin-bottom: 5px;
+}
+
+.input-pw {
+    width: 53%;
+    border: 2px solid rgb(241, 242, 244);
+    height: 32px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-left: -450px;
+    padding-left: 10px;
+    border-radius: 11px;
+    margin-bottom: 5px;
+}
+
+.icn {
+    width: 50px;
+    /* background: #F1F2F4; */
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+    border-color: #13A458;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: -450px;
+    flex: 0 0 auto;
+}
+
+.forget_pwd {
+    justify-content: flex-end;
+    -webkit-box-pack: end;
+    display: flex;
+    box-sizing: border-box;
+    margin-inline-end: 350px;
+}
+
+.lupa {
+    font-size: 14px;
+    color: #13A458;
+    margin-bottom: 10px;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: .1s;
+}
+
+.social-media {
+    margin-bottom: 24px;
+    gap: 24px;
+    justify-content: center;
+    -webkit-box-pack: center;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-go {
+    /* color: #FEFEFE; */
+    width: 55px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    padding: 10px 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: rgb(254, 254, 254);
+    box-sizing: border-box;
+}
+
+.btn-fcb {
+    /* color: #FEFEFE; */
+    width: 55px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    padding: 10px 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: rgb(49, 74, 134);
+    box-sizing: border-box;
+}
+
+.btn-gh {
+    /* color: #FEFEFE; */
+    width: 55px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    padding: 10px 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: rgb(36, 39, 41);
+    box-sizing: border-box;
+}
+
+.contentContainer {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* color: #FEFEFE; */
+}
+
+.sc {
+    display: block;
+    stroke: currentcolor;
+    fill: currentcolor;
+    stroke-width: 0;
+    height: 1.4em;
+    width: 1.4em;
+}
+
+.cntr {
+    padding: 10px 0;
+
+}
+
+.text {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(25, 25, 25);
+    letter-spacing: -0.05px;
+    font-weight: 400;
+    /* font-family: Quicksand; */
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 45%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.belum_punya_akun {
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    align-items: center;
+    -webkit-box-align: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.buat {
+    margin-right: 8px;
+    line-height: 24px;
+    color: rgb(25, 25, 25);
+    letter-spacing: -0.05px;
+    font-weight: 400;
+    font-size: 16px;
+    /* font-family: Quicksand; */
+    box-sizing: border-box;
+
+}
+
+.daftar {
+    line-height: 24px;
+    letter-spacing: -0.05px;
+    font-weight: 400;
+    font-size: 16px;
+    /* font-family: Quicksand; */
+    color: #13A458;
+}
